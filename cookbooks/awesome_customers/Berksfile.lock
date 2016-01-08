@@ -1,0 +1,13 @@
+DEPENDENCIES
+  awesome_customers
+    path: .
+    metadata: true
+
+GRAPH
+  awesome_customers (0.1.0)
+    httpd (~> 0.2.18)
+    iptables (~> 1.0.0)
+    selinux (~> 0.9.0)
+  httpd (0.2.19)
+  iptables (1.0.0)
+  selinux (0.9.0)
